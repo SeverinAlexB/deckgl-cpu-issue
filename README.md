@@ -17,6 +17,7 @@ ng serve
 ### Screenshots
 ![](images/cpu-raise.png)
 ![](images/devtool-performance.png)
+![](images/console-logs.png)
 
 ### Packages
 
