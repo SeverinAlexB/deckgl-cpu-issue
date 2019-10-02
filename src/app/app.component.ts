@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import mapboxgl from 'mapbox-gl';
 import {Deck} from '@deck.gl/core';
 
-// mapboxgl.accessToken = 'Set your accessToken here';
+// mapboxgl.accessToken = '';
 
 @Component({
   selector: 'app-root',
@@ -53,7 +53,6 @@ export class AppComponent implements OnInit {
     if (this.isMapboxTokenSet) {
       this.initDeck();
     }
-
   }
 
   public get isMapboxTokenSet(): boolean {

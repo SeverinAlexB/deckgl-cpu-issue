@@ -6,6 +6,9 @@ As soon as deck is initialized, the cpu will raise to 70% and more.
 
 ### Run project
 
+1. Set the mapbox access token on `app.component.ts` on line 5.
+2. Install dependencies and run Angular.
+
 ```bash
 npm install
 ng serve
