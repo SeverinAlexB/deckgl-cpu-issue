@@ -11,6 +11,10 @@ npm install
 ng serve
 ```
 
+### Screenshots
+![](images/cpu-raise.png)
+![](images/devtool-performance.png)
+
 ### Packages
 
 - deck.gl: 7.3.1
