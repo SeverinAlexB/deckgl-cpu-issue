@@ -1,3 +1,11 @@
-<div id="georeport-map" class="map-container"></div>
+<div *ngIf="!isMapboxTokenSet">
+  <p>Mapbox access token is not set.
+    Set mapbox.accessToken in the app.component.html first.</p>
+</div>
 
-<canvas id="georeport-deck-canvas" class="map-container"></canvas>
+<div [hidden]="!isMapboxTokenSet">
+  <h1>Deck.gl cpu issue</h1>
+  <div id="georeport-map" class="map-container"></div>
+
+  <canvas id="georeport-deck-canvas" class="map-container"></canvas>
+</div>
